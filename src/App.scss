@@ -1,0 +1,31 @@
+* {
+    margin : 0;
+    padding : 0;
+}
+#root {
+    max-width: 1920px;
+    width : 100%;
+    min-width : 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+.container {
+    width :80%;
+    .movies {
+        display: flex;
+        justify-content: space-between;
+        align-items: space-between;
+        flex-wrap: wrap;
+        .movie {
+            width : 45%;
+            margin-top: 5%;
+            background-color: aliceblue;
+            > img{
+                width : 15%;
+                height: auto;
+            }
+        }
+    }
+}

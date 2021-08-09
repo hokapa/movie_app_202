@@ -1,3 +1,33 @@
-body {
-    background-color: #f2f2f2;
+* {
+  margin: 0;
+  padding: 0;
 }
+
+#root {
+  max-width: 1920px;
+  width: 100%;
+  min-width: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+.container {
+  width: 80%;
+}
+.container .movies {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+  flex-wrap: wrap;
+}
+.container .movies .movie {
+  width: 45%;
+  margin-top: 5%;
+  background-color: aliceblue;
+}
+.container .movies .movie > img {
+  width: 15%;
+  height: auto;
+}/*# sourceMappingURL=App.css.map */
